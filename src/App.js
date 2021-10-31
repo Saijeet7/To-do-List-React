@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import Todo from './components/todoreact/todo';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Todo/>
+    </>
   );
 }
 
